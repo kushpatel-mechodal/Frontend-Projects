@@ -1,0 +1,3367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+<<<<<<< HEAD
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bignlean - Web</title>
+=======
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bignlean-Web</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+>>>>>>> 8ac361e0b471fcb11ad8c49af7fe52487ad8d450
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+<<<<<<< HEAD
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+=======
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Home Page Header -->
+    <header class="header">
+      <div class="header_container">
+        <div class="header_left">
+          <a href="" class="header_logo">
+            <img src="assests/logo.svg" alt="BigClean" />
+          </a>
+
+          <div class="header_delivery">
+            <img src="assests/location.svg" alt="Location image" />
+            <span>Deliver to - <strong>THANE 400601</strong></span>
+          </div>
+        </div>
+
+        <!-- Product Search -->
+        <form class="header_search">
+          <button type="submit" aria-label="Search">
+            <img src="assests/search.svg" alt="" />
+          </button>
+
+          <input
+            type="search"
+            placeholder="Search for Products"
+            aria-label="Search for Products"
+          />
+        </form>
+
+        <!-- Right: Actions & Profile -->
+        <div class="header_right">
+          <div class="header_actions">
+            <button class="header_action" type="button" aria-label="Wishlist">
+              <img src="assests/love.svg" alt="Wishlist" />
+            </button>
+
+            <button
+              class="header_action"
+              type="button"
+              aria-label="Notifications"
+            >
+              <img src="assests/notification.svg" alt="Notifications" />
+            </button>
+
+            <button class="header_action" type="button" aria-label="Shopping">
+              <img src="assests/Vector.svg" alt="Shopping" />
+            </button>
+          </div>
+
+          <div class="header_profile">
+            <img
+              src="assests/profile.svg"
+              alt="User Profile"
+              class="header_profile-image"
+            />
+
+            <span class="header_profile-name">Pravin D.</span>
+          </div>
+
+          <button
+            class="header_hamburger"
+            id="headerHamburger"
+            type="button"
+            aria-label="Toggle Navigation"
+            aria-expanded="false"
+            aria-controls="mobileDrawer"
+          >
+            <span class="hamburger_line"></span>
+            <span class="hamburger_line"></span>
+            <span class="hamburger_line"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="header_drawer_backdrop" id="drawerBackdrop"></div>
+
+      <nav
+        class="header_mobile_drawer"
+        id="mobileDrawer"
+        aria-label="Mobile Navigation"
+      >
+        <div class="drawer_header">
+          <div class="drawer_profile">
+            <img
+              src="assests/profile.svg"
+              alt="User Profile"
+              class="drawer_profile_img"
+            />
+            <div class="drawer_profile_info">
+              <span class="drawer_profile_name">Pravin D.</span>
+              <span class="drawer_profile_sub">Member</span>
+            </div>
+          </div>
+          <button
+            class="drawer_close"
+            id="drawerClose"
+            type="button"
+            aria-label="Close menu"
+          >
+            &times;
+          </button>
+        </div>
+
+        <div class="drawer_delivery">
+          <img src="assests/location.svg" alt="Location" />
+          <span>Deliver to - <strong>THANE 400601</strong></span>
+        </div>
+
+        <ul class="drawer_menu">
+          <li class="drawer_item">
+            <a href="#" class="drawer_link">
+              <img src="assests/love.svg" alt="Wishlist" />
+              <span>Wishlist</span>
+            </a>
+          </li>
+          <li class="drawer_item">
+            <a href="#" class="drawer_link">
+              <img src="assests/notification.svg" alt="Notifications" />
+              <span>Notifications</span>
+            </a>
+          </li>
+          <li class="drawer_item">
+            <a href="#" class="drawer_link">
+              <img src="assests/Vector.svg" alt="Shopping bag" />
+              <span>Shopping</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header_drawer_backdrop" id="drawerBackdrop"></div>
+
+      <nav
+        class="header_mobile_drawer"
+        id="mobileDrawer"
+        aria-label="Mobile Navigation"
+      >
+        <div class="drawer_header">
+          <div class="drawer_profile">
+            <img
+              src="assests/profile.svg"
+              alt="User Profile"
+              class="drawer_profile_img"
+            />
+            <div class="drawer_profile_info">
+              <span class="drawer_profile_name">Pravin D.</span>
+              <span class="drawer_profile_sub">Member</span>
+            </div>
+          </div>
+          <button
+            class="drawer_close"
+            id="drawerClose"
+            type="button"
+            aria-label="Close menu"
+          >
+            &times;
+          </button>
+        </div>
+
+        <div class="drawer_delivery">
+          <img src="assests/location.svg" alt="Location" />
+          <span>Deliver to - <strong>THANE 400601</strong></span>
+        </div>
+
+        <ul class="drawer_menu">
+          <li class="drawer_item">
+            <a href="#" class="drawer_link">
+              <img src="assests/love.svg" alt="Wishlist" />
+              <span>Wishlist</span>
+            </a>
+          </li>
+          <li class="drawer_item">
+            <a href="#" class="drawer_link">
+              <img src="assests/notification.svg" alt="Notifications" />
+              <span>Notifications</span>
+            </a>
+          </li>
+          <li class="drawer_item">
+            <a href="#" class="drawer_link">
+              <img src="assests/Vector.svg" alt="Shopping bag" />
+              <span>Shopping Bag</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <!-- Homepage sections -->
+        <section class="location_search">
+          <div class="location_search_container">
+            <div class="location_search_row">
+              <div class="location_search_box">
+                <button type="button" aria-label="Search">
+                  <img src="assests/search.svg" alt="" />
+                </button>
+
+                <input
+                  type="search"
+                  placeholder="Search for your location"
+                  aria-label="Search for your location"
+                />
+              </div>
+
+              <button class="current_location" type="button">
+                <img src="assests/current_location.svg" alt="" />
+                <span>Use Current Location</span>
+              </button>
+            </div>
+
+            <div class="location_recent">
+              <img
+                src="assests/history.svg"
+                alt="Recent"
+                class="history_icon"
+              />
+              <span>Pune, Maharashtra</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="hero_banner">
+          <img src="assests/hero-banner.png" alt="Hero banner" />
+        </section>
+
+        <!-- Price Slash Alert Section -->
+        <section class="price_slash">
+          <div class="price_slash_header">
+            <div class="price_slash_title_wrap">
+              <h2 class="price_slash_title">Price slash alert</h2>
+              <span class="price_slash_timer">12:30</span>
+            </div>
+            <a href="#" class="price_slash_view_all">View All</a>
+          </div>
+
+          <div class="price_slash_carousel_wrapper">
+            <div class="price_slash_track" id="priceSlashTrack">
+              <!-- Product Card 1 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Express delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_1.png"
+                    alt="Muscletech NitroTech 100% Whey Gold Performance Series"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    Muscletech NitroTech 100% Whey Gold Performance Series
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 2 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Express delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_2.png"
+                    alt="Rule1 Fish Oil Softgels"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">Rule1 Fish Oil Softgels</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 3 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Express delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_3.png"
+                    alt="Rule1 Lytes + Hydration Support"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">Rule1 Lytes + Hydration Support</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 4 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Express delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_4.png"
+                    alt="MyProtein Impact Whey Protein"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">MyProtein Impact Whey Protein</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 5 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Express delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_1.png"
+                    alt="GNC Pro Performance Weight Gainer"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    GNC Pro Performance Weight Gainer
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button
+              class="price_slash_btn price_slash_prev product_slash_previous"
+              id="priceSlashPrev"
+              type="button"
+              aria-label="Previous Products"
+            >
+              <img src="assests/arrow-left-white.svg" alt="Previous" />
+            </button>
+            <button
+              class="price_slash_btn price_slash_next"
+              id="priceSlashNext"
+              type="button"
+              aria-label="Next Products"
+            >
+              <img src="assests/arrow-right-white.svg" alt="Next" />
+            </button>
+          </div>
+        </section>
+
+        <!-- Brands Section -->
+        <section class="shop_brands">
+          <div class="shop_brands_header">
+            <h2 class="shop_brands_title">Shop by Brands</h2>
+            <a href="#" class="shop_brands_show_all">Show All</a>
+          </div>
+
+          <div class="shop_brands_carousel_wrapper">
+            <div class="shop_brands_track" id="brandTrack">
+              <div class="brand_card">
+                <img
+                  src="assests/brand_1.png"
+                  alt="MyProtein"
+                  class="brand_img"
+                />
+              </div>
+
+              <div class="brand_card">
+                <img
+                  src="assests/brand_2.png"
+                  alt="Isopure"
+                  class="brand_img"
+                />
+              </div>
+
+              <div class="brand_card">
+                <img src="assests/brand_3.png" alt="PhD" class="brand_img" />
+              </div>
+
+              <div class="brand_card">
+                <img
+                  src="assests/brand_4.png"
+                  alt="MuscleBlaze"
+                  class="brand_img"
+                />
+              </div>
+
+              <div class="brand_card">
+                <img src="assests/brand_5.png" alt="Alpino" class="brand_img" />
+              </div>
+
+              <div class="brand_card">
+                <img
+                  src="assests/brand_1.png"
+                  alt="MyProtein"
+                  class="brand_img"
+                />
+              </div>
+
+              <div class="brand_card">
+                <img
+                  src="assests/brand_2.png"
+                  alt="Isopure"
+                  class="brand_img"
+                />
+              </div>
+            </div>
+
+            <button
+              class="brand_nav_btn brand_next_btn"
+              id="brandTrackNext"
+              type="button"
+              aria-label="Next Brands"
+            >
+              <img src="assests/arrow-right-white.svg" alt="Next" />
+            </button>
+          </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="shop_categories">
+          <div class="shop_categories_header">
+            <h2 class="shop_categories_title">Shop by Categories</h2>
+          </div>
+
+          <div class="shop_categories_grid">
+            <div class="category_card">
+              <div class="category_header">
+                <span class="category_name">PROTEIN</span>
+                <span class="category_sub">POWDERS</span>
+              </div>
+              <div class="category_image_wrap">
+                <img
+                  src="assests/category_1.png"
+                  alt="Protein Powders"
+                  class="category_img"
+                />
+              </div>
+            </div>
+
+            <div class="category_card">
+              <div class="category_header single_line">
+                <span class="category_name">BCAA</span>
+              </div>
+              <div class="category_image_wrap">
+                <img
+                  src="assests/category_2.png"
+                  alt="BCAA"
+                  class="category_img"
+                />
+              </div>
+            </div>
+
+            <div class="category_card">
+              <div class="category_header">
+                <span class="category_name">CREATINE</span>
+                <span class="category_sub">POWDER</span>
+              </div>
+              <div class="category_image_wrap">
+                <img
+                  src="assests/category_3.png"
+                  alt="Creatine Powder"
+                  class="category_img"
+                />
+              </div>
+            </div>
+
+            <div class="category_card">
+              <div class="category_header">
+                <span class="category_name">VITAMINS &</span>
+                <span class="category_name">MINERALS</span>
+              </div>
+              <div class="category_image_wrap">
+                <img
+                  src="assests/category_4.png"
+                  alt="Vitamins & Minerals"
+                  class="category_img"
+                />
+              </div>
+            </div>
+
+            <div class="category_card">
+              <div class="category_header single_line">
+                <span class="category_name">EXTRAS</span>
+              </div>
+              <div class="category_image_wrap">
+                <img
+                  src="assests/category_5.png"
+                  alt="Extras"
+                  class="category_img"
+                />
+              </div>
+            </div>
+
+            <div class="category_card">
+              <div class="category_header single_line">
+                <span class="category_name">WELLNESS</span>
+              </div>
+              <div class="category_image_wrap">
+                <img
+                  src="assests/category_6.png"
+                  alt="Wellness"
+                  class="category_img"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Popular Products Section -->
+        <section class="popular_products">
+          <div class="popular_products_header">
+            <h2 class="popular_products_title">Popular Products</h2>
+            <a href="#" class="popular_products_show_all">Show All</a>
+          </div>
+
+          <div class="popular_products_carousel_wrapper">
+            <div class="popular_products_track" id="popularTrack">
+              <!-- Product Card 1 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_5.png"
+                    alt="Rule1 Lytes + Hydration Support"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">Rule1 Lytes + Hydration Support</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 2 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Express delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_6.png"
+                    alt="GNC Milk Thistle 250 mg 90 Capsules"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    GNC Milk Thistle 250 mg 90 Capsules
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 3 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Express delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_7.png"
+                    alt="XTEND Original BCAA Powder"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">XTEND Original BCAA Powder</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 4 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Express delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_1.png"
+                    alt="Muscletech NitroTech 100% Whey Gold Performance Series"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    Muscletech NitroTech 100% Whey Gold Performance Series
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 5 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Express delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_5.png"
+                    alt="Rule1 Lytes + Hydration Support"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">Rule1 Lytes + Hydration Support</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button
+              class="price_slash_btn price_slash_prev product_slash_previous"
+              id="popularPrev"
+              type="button"
+              aria-label="Previous Products"
+            >
+              <img src="assests/arrow-left-white.svg" alt="Previous" />
+            </button>
+            <button
+              class="price_slash_btn price_slash_next"
+              id="popularNext"
+              type="button"
+              aria-label="Next Products"
+            >
+              <img src="assests/arrow-right-white.svg" alt="Next" />
+            </button>
+          </div>
+        </section>
+
+        <!-- Discount Section -->
+        <section class="buy2_products">
+          <div class="buy2_products_header">
+            <h2 class="buy2_products_title">Buy 2 @ 15% Off</h2>
+            <a href="#" class="buy2_products_show_all">Show All</a>
+          </div>
+
+          <div class="buy2_products_carousel_wrapper">
+            <div class="buy2_products_track" id="buy2Track">
+              <!-- Product Card 1 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_5.png"
+                    alt="Rule1 Lytes + Hydration Support"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">Rule1 Lytes + Hydration Support</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 2 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Express delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_6.png"
+                    alt="GNC Milk Thistle 250 mg 90 Capsules"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    GNC Milk Thistle 250 mg 90 Capsules
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 3 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Express delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_7.png"
+                    alt="XTEND Original BCAA Powder"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">XTEND Original BCAA Powder</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 4 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Express delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_1.png"
+                    alt="Muscletech NitroTech 100% Whey Gold Performance Series"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    Muscletech NitroTech 100% Whey Gold Performance Series
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 5 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Express delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_5.png"
+                    alt="Rule1 Lytes + Hydration Support"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">Rule1 Lytes + Hydration Support</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button
+              class="price_slash_btn price_slash_prev product_slash_previous"
+              id="buy2Prev"
+              type="button"
+              aria-label="Previous Products"
+            >
+              <img src="assests/arrow-left-white.svg" alt="Previous" />
+            </button>
+            <button
+              class="price_slash_btn price_slash_next"
+              id="buy2Next"
+              type="button"
+              aria-label="Next Products"
+            >
+              <img src="assests/arrow-right-white.svg" alt="Next" />
+            </button>
+          </div>
+        </section>
+
+        <!-- Member Banner section-->
+        <section class="member_banner">
+          <img
+            src="assests/member_banner.png"
+            alt="Become a Member Now!"
+            class="member_banner_img"
+          />
+        </section>
+
+        <!-- Combos Section -->
+        <section class="top_selling_combos">
+          <div class="combos_header">
+            <h2 class="combos_title">Top Selling Combos</h2>
+          </div>
+
+          <div class="combos_grid">
+            <div class="combo_card">
+              <img
+                src="assests/combo_1.png"
+                alt="ON Fitness Range Combo"
+                class="combo_img"
+              />
+            </div>
+            <div class="combo_card">
+              <img
+                src="assests/combo_2.png"
+                alt="GNC Bodybuilding Fuels Combo"
+                class="combo_img"
+              />
+            </div>
+            <div class="combo_card">
+              <img
+                src="assests/combo_2.png"
+                alt="GNC Bodybuilding Fuels Combo"
+                class="combo_img"
+              />
+            </div>
+            <div class="combo_card">
+              <img
+                src="assests/combo_3.png"
+                alt="Athletic Nutrition Combo"
+                class="combo_img"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- Pick Day Section -->
+        <section class="pick_day">
+          <div class="pick_header">
+            <h2 class="pick_day_title">Pick of the Day</h2>
+          </div>
+
+          <div class="pick_day_carousel_wrapper">
+            <div class="pick_track" id="pickOfDayTrack">
+              <!-- Product Card 1 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_7.png"
+                    alt="XTEND Original BCAA Powder"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">XTEND Original BCAA Powder</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 2 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_8.png"
+                    alt="PhD Nutrition Micronised Creatine Powder"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    PhD Nutrition Micronised Creatine Powder
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹1,899.00</span>
+                      <span class="product_current_price">₹1,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 3 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_5.png"
+                    alt="Rule1 Lytes + Hydration Support"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">Rule1 Lytes + Hydration Support</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 4 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_6.png"
+                    alt="GNC Milk Thistle 250 mg 90 Capsules"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    GNC Milk Thistle 250 mg 90 Capsules
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 5 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_1.png"
+                    alt="Muscletech NitroTech 100% Whey Gold Performance Series"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    Muscletech NitroTech 100% Whey Gold Performance Series
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button
+              class="price_slash_btn price_slash_prev product_slash_previous"
+              id="pickOfDayPrev"
+              type="button"
+              aria-label="Previous Products"
+            >
+              <img src="assests/arrow-left-white.svg" alt="Previous" />
+            </button>
+            <button
+              class="price_slash_btn price_slash_next"
+              id="pickOfDayNext"
+              type="button"
+              aria-label="Next Products"
+            >
+              <img src="assests/arrow-right-white.svg" alt="Next" />
+            </button>
+          </div>
+        </section>
+
+        <!-- Quote Banner Section -->
+        <section class="quote_banner">
+          <div class="quote_box">
+            <p class="quote_text">
+              “All progress takes place outside the<br />comfort zone.”
+            </p>
+            <span class="quote_author">-Michael John Bobak</span>
+          </div>
+        </section>
+
+        <!-- Member Banner Section 2 -->
+        <section class="member_banner">
+          <img
+            src="assests/member_banner.png"
+            alt="Become a Member Now!"
+            class="member_banner_img"
+          />
+        </section>
+
+        <!-- Recently Viewed Section -->
+        <section class="recent_view">
+          <div class="recent_header">
+            <h2 class="recent_title">Recently Viewed</h2>
+          </div>
+
+          <div class="recent_carousel_wrapper">
+            <div class="recent_track" id="recentTrack">
+              <!-- Product Card 1 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_4.png"
+                    alt="MyProtein Impact Whey Protein"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">MyProtein Impact Whey Protein</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 2 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_6.png"
+                    alt="GNC Milk Thistle 250 mg 90 Capsules"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    GNC Milk Thistle 250 mg 90 Capsules
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 3 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_5.png"
+                    alt="Rule1 Lytes + Hydration Support"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">Rule1 Lytes + Hydration Support</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 4 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_7.png"
+                    alt="XTEND Original BCAA Powder"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">XTEND Original BCAA Powder</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 5 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_1.png"
+                    alt="Muscletech NitroTech 100% Whey Gold Performance Series"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    Muscletech NitroTech 100% Whey Gold Performance Series
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button
+              class="price_slash_btn price_slash_prev product_slash_previous"
+              id="recentPrev"
+              type="button"
+              aria-label="Previous Products"
+            >
+              <img src="assests/arrow-left-white.svg" alt="Previous" />
+            </button>
+            <button
+              class="price_slash_btn price_slash_next"
+              id="recentNext"
+              type="button"
+              aria-label="Next Products"
+            >
+              <img src="assests/arrow-right-white.svg" alt="Next" />
+            </button>
+          </div>
+        </section>
+
+        <!-- Best Seller Section -->
+        <section class="best_seller">
+          <div class="best_header">
+            <h2 class="best_title">Best Seller</h2>
+          </div>
+
+          <div class="best_carousel_wrapper">
+            <div class="best_track" id="bestTrack">
+              <!-- Product Card 1 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_4.png"
+                    alt="MyProtein Impact Whey Protein"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">MyProtein Impact Whey Protein</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 2 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_6.png"
+                    alt="GNC Milk Thistle 250 mg 90 Capsules"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    GNC Milk Thistle 250 mg 90 Capsules
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 3 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_5.png"
+                    alt="Rule1 Lytes + Hydration Support"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">Rule1 Lytes + Hydration Support</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 4 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_7.png"
+                    alt="XTEND Original BCAA Powder"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">XTEND Original BCAA Powder</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 5 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_8.png"
+                    alt="PhD Nutrition Micronised Creatine Powder"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    PhD Nutrition Micronised Creatine Powder
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹1,899.00</span>
+                      <span class="product_current_price">₹1,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button
+              class="price_slash_btn price_slash_prev product_slash_previous"
+              id="bestPrev"
+              type="button"
+              aria-label="Previous Products"
+            >
+              <img src="assests/arrow-left-white.svg" alt="Previous" />
+            </button>
+            <button
+              class="price_slash_btn price_slash_next"
+              id="bestNext"
+              type="button"
+              aria-label="Next Products"
+            >
+              <img src="assests/arrow-right-white.svg" alt="Next" />
+            </button>
+          </div>
+        </section>
+
+        <!-- Extra Freebies Section -->
+
+        <section class="extra_freebies">
+          <div class="extra_header">
+            <h2 class="extra_title">Extra 10% Off + Freebies</h2>
+          </div>
+
+          <div class="extra_carousel_wrapper">
+            <div class="extra_track" id="extraTrack">
+              <!-- Product Card 1 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_9.png"
+                    alt="Cellucor Cor-Performance Whey Protein Plus C4 Pre-Workout"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    Cellucor Cor-Performance Whey Protein Plus C4 Pre-Workout
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 2 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_10.png"
+                    alt="Muscleblaze Biozyme Performance Whey"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    Muscleblaze Biozyme Performance Whey
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹1,899.00</span>
+                      <span class="product_current_price">₹1,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 3 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_4.png"
+                    alt="MyProtein Impact Whey Protein"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">MyProtein Impact Whey Protein</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 4 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_1.png"
+                    alt="Muscletech NitroTech 100% Whey Gold Performance Series"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    Muscletech NitroTech 100% Whey Gold Performance Series
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 5 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_5.png"
+                    alt="Rule1 Lytes + Hydration Support"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">Rule1 Lytes + Hydration Support</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button
+              class="price_slash_btn price_slash_prev product_slash_previous"
+              id="extraPrev"
+              type="button"
+              aria-label="Previous Products"
+            >
+              <img src="assests/arrow-left-white.svg" alt="Previous" />
+            </button>
+            <button
+              class="price_slash_btn price_slash_next"
+              id="extraNext"
+              type="button"
+              aria-label="Next Products"
+            >
+              <img src="assests/arrow-right-white.svg" alt="Next" />
+            </button>
+          </div>
+        </section>
+
+        <!-- Bonanza Deals Section -->
+        <section class="bonanza_deals">
+          <div class="bonanza_header">
+            <h2 class="bonanza_title">Bonanza Deals</h2>
+          </div>
+
+          <div class="combos_grid">
+            <div class="combo_card">
+              <img
+                src="assests/combo_1.png"
+                alt="ON Fitness Range Combo"
+                class="combo_img"
+              />
+            </div>
+            <div class="combo_card">
+              <img
+                src="assests/combo_2.png"
+                alt="GNC Bodybuilding Fuels Combo"
+                class="combo_img"
+              />
+            </div>
+            <div class="combo_card">
+              <img
+                src="assests/combo_2.png"
+                alt="GNC Bodybuilding Fuels Combo"
+                class="combo_img"
+              />
+            </div>
+            <div class="combo_card">
+              <img
+                src="assests/combo_3.png"
+                alt="Athletic Nutrition Combo"
+                class="combo_img"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- Quote Banner Section -->
+        <section class="quote_banner">
+          <div class="quote_box">
+            <p class="quote_text">
+              “There are no shortcuts. Everything is<br />reps, reps, reps.”
+            </p>
+            <span class="quote_author">-Arnold Schwarzenegger</span>
+          </div>
+        </section>
+
+        <!-- Fit Food Range Section -->
+        <section class="fit_food">
+          <div class="fit_header">
+            <h2 class="fit_title">Fit Food Range</h2>
+          </div>
+
+          <div class="fit_carousel_wrapper">
+            <div class="fit_track" id="fitTrack">
+              <!-- Product Card 1 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_11.png"
+                    alt="PhD Nutrition Isolate + PhD Multi + PhD Daily Omega 3"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    PhD Nutrition Isolate + PhD Multi + PhD Daily Omega 3
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 2 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_7.png"
+                    alt="XTEND Original BCAA Powder"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">XTEND Original BCAA Powder</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 3 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_9.png"
+                    alt="Cellucor Cor-Performance Whey Protein Plus C4 Pre-Workout"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    Cellucor Cor-Performance Whey Protein Plus C4 Pre-Workout
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 4 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_10.png"
+                    alt="Muscleblaze Biozyme Performance Whey"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">
+                    Muscleblaze Biozyme Performance Whey
+                  </h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹1,899.00</span>
+                      <span class="product_current_price">₹1,449.00</span>
+                    </div>
+                    <div class="product_bestseller">
+                      <img
+                        src="assests/bestseller_badge.svg"
+                        alt="Bestseller"
+                      />
+                      <span>Bestseller</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+
+              <!-- Product Card 5 -->
+              <div class="product_card">
+                <div class="product_card_top">
+                  <span class="product_discount">32% off</span>
+                  <div class="product_actions product_actions_row">
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Fast Delivery"
+                    >
+                      <img
+                        src="assests/Thunder.svg"
+                        alt="Fast delivery"
+                        class="action_icon_thunder"
+                      />
+                    </button>
+                    <button
+                      class="product_action_btn"
+                      type="button"
+                      aria-label="Add to Wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="product_image_box">
+                  <img
+                    src="assests/product_4.png"
+                    alt="MyProtein Impact Whey Protein"
+                    class="product_img"
+                  />
+                  <div class="product_rating">
+                    <img src="assests/star.svg" alt="Rating" />
+                    <span>4.4</span>
+                  </div>
+                </div>
+
+                <div class="product_details">
+                  <h3 class="product_title">MyProtein Impact Whey Protein</h3>
+
+                  <div class="product_pricing">
+                    <div class="product_prices">
+                      <span class="product_mrp">₹3,999.00</span>
+                      <span class="product_current_price">₹3,449.00</span>
+                    </div>
+                  </div>
+
+                  <a class="btn_add_to_cart" href="product_detail.html">
+                    Add to cart
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button
+              class="price_slash_btn price_slash_prev product_slash_previous"
+              id="fitPrev"
+              type="button"
+              aria-label="Previous Products"
+            >
+              <img src="assests/arrow-left-white.svg" alt="Previous" />
+            </button>
+            <button
+              class="price_slash_btn price_slash_next"
+              id="fitNext"
+              type="button"
+              aria-label="Next Products"
+            >
+              <img src="assests/arrow-right-white.svg" alt="Next" />
+            </button>
+          </div>
+        </section>
+
+        <!-- Budget Combo Zone Section -->
+        <section class="budget_combos">
+          <div class="budget_header">
+            <h2 class="budget_title">Budget Combo Zone</h2>
+          </div>
+
+          <div class="combos_grid">
+            <div class="combo_card">
+              <img
+                src="assests/combo_1.png"
+                alt="ON Fitness Range Combo"
+                class="combo_img"
+              />
+            </div>
+            <div class="combo_card">
+              <img
+                src="assests/combo_2.png"
+                alt="GNC Bodybuilding Fuels Combo"
+                class="combo_img"
+              />
+            </div>
+            <div class="combo_card">
+              <img
+                src="assests/combo_2.png"
+                alt="GNC Bodybuilding Fuels Combo"
+                class="combo_img"
+              />
+            </div>
+            <div class="combo_card">
+              <img
+                src="assests/combo_3.png"
+                alt="Athletic Nutrition Combo"
+                class="combo_img"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- Member Banner Section -->
+        <section class="member_banner">
+          <img
+            src="assests/member_banner.png"
+            alt="Become a Member Now!"
+            class="member_banner_img"
+          />
+        </section>
+
+        <!-- App Download Banner Section -->
+        <section class="app_banner">
+          <div class="app_visual">
+            <img
+              src="assests/mobile_image.svg"
+              alt="Bignlean Mobile App on smartphone"
+              class="app_phone_img"
+            />
+          </div>
+
+          <div class="app_info">
+            <h2 class="app_title">
+              <span class="app_subtitle">Download the</span>
+              Bignlean Mobile App
+            </h2>
+
+            <div class="app_features">
+              <div class="app_feature">
+                <div class="app_icon_box">
+                  <img
+                    src="assests/shopping.svg"
+                    alt="Easier, Faster Shopping"
+                    class="app_icon_svg"
+                  />
+                </div>
+                <div class="app_feature_info">
+                  <h3 class="app_feature_name">Easier, Faster Shopping</h3>
+                  <p class="app_feature_desc">
+                    Get Authentic Supplement, Fitness solutions, and a healthy
+                    lifestyle
+                  </p>
+                </div>
+              </div>
+
+              <div class="app_feature">
+                <div class="app_icon_box">
+                  <img
+                    src="assests/BMR.svg"
+                    alt="Fuel your Fitness Goals"
+                    class="app_icon_svg"
+                  />
+                </div>
+                <div class="app_feature_info">
+                  <h3 class="app_feature_name">Fuel your Fitness Goals</h3>
+                  <p class="app_feature_desc">
+                    Complete challenges to build habit &amp; win HK cash
+                  </p>
+                </div>
+              </div>
+
+              <div class="app_feature">
+                <div class="app_icon_box">
+                  <img
+                    src="assests/star.svg"
+                    alt="Get Exclusive App Only Benefits"
+                    class="app_icon_svg"
+                  />
+                </div>
+                <div class="app_feature_info">
+                  <h3 class="app_feature_name">
+                    Get Exclusive App Only Benefits
+                  </h3>
+                  <p class="app_feature_desc">
+                    Extra discounts, offers and cashbacks
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="app_stores">
+              <a
+                href="#"
+                class="app_store_btn"
+                aria-label="Get it on Google Play"
+              >
+                <img
+                  src="assests/playstore.png"
+                  alt="Google Play"
+                  class="app_store_img"
+                />
+              </a>
+              <a
+                href="#"
+                class="app_store_btn"
+                aria-label="Download on the App Store"
+              >
+                <img
+                  src="assests/appstore.png"
+                  alt="App Store"
+                  class="app_store_img"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer_in">
+        <div class="footer_main">
+          <div class="footer_left">
+            <nav class="footer_nav" aria-label="Footer Navigation">
+              <div class="footer_col">
+                <h4 class="footer_col_title">BignLean</h4>
+                <ul class="footer_list">
+                  <li><a href="#" class="footer_link">About us</a></li>
+                  <li><a href="#" class="footer_link">Contact us</a></li>
+                  <li><a href="#" class="footer_link">Refer &amp; Earn</a></li>
+                  <li>
+                    <a href="#" class="footer_link">Authenticity Guaranteed</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer_col">
+                <h4 class="footer_col_title">Brand</h4>
+                <ul class="footer_list">
+                  <li><a href="#" class="footer_link">Muscleblaze</a></li>
+                  <li><a href="#" class="footer_link">Fit Foods</a></li>
+                  <li><a href="#" class="footer_link">BL Vitals</a></li>
+                  <li><a href="#" class="footer_link">Gritzo</a></li>
+                  <li><a href="#" class="footer_link">bGreen</a></li>
+                </ul>
+              </div>
+
+              <div class="footer_col">
+                <h4 class="footer_col_title">Health &amp; Fitness</h4>
+                <ul class="footer_list">
+                  <li><a href="#" class="footer_link">Sports Nutrition</a></li>
+                  <li>
+                    <a href="#" class="footer_link"
+                      >Vitamins &amp; Supplements</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="footer_link">Ayurveda &amp; Herbs</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_link">Health Food &amp; Drinks</a>
+                  </li>
+                  <li><a href="#" class="footer_link">Fitness</a></li>
+                </ul>
+              </div>
+
+              <div class="footer_col">
+                <h4 class="footer_col_title">Useful Links</h4>
+                <ul class="footer_list">
+                  <li>
+                    <a href="#" class="footer_link">Terms and Conditions</a>
+                  </li>
+                  <li><a href="#" class="footer_link">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </nav>
+
+            <div class="footer_mid">
+              <div class="footer_addr">
+                <h5 class="footer_mid_title">Store Address</h5>
+                <p class="footer_addr_text">
+                  Bignlean Store, Ground Floor, E-Wing, Shop no.16 &amp; 17,
+                  Lodha Freshia Building, Kalyan Shil Road, Lodha Heaven, Nilje,
+                  Dombivali East, Thane, Mumbai 421204
+                </p>
+              </div>
+              <div class="footer_email">
+                <h5 class="footer_mid_title">EMAIL</h5>
+                <p class="footer_contact_text">
+                  <a
+                    href="mailto:support@bignlean.com"
+                    class="footer_contact_link"
+                    >support@bignlean.com</a
+                  >
+                </p>
+              </div>
+              <div class="footer_toll">
+                <h5 class="footer_mid_title">Toll Free</h5>
+                <p class="footer_contact_text">
+                  <a href="tel:18002661313" class="footer_contact_link"
+                    >1800 266 1313</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer_cards">
+            <div class="footer_card">
+              <h5 class="footer_card_title">Subscribe</h5>
+              <form class="footer_sub_form" onsubmit="event.preventDefault()">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="footer_sub_input"
+                  aria-label="Enter your email"
+                />
+                <button
+                  type="submit"
+                  class="footer_sub_btn"
+                  aria-label="Subscribe"
+                >
+                  &gt;
+                </button>
+              </form>
+              <p class="footer_sub_note">
+                *Get newsletters and exclusive offers
+              </p>
+              <div class="footer_badges">
+                <img
+                  src="assests/mark_1.svg"
+                  alt="14 Days Return"
+                  class="footer_badge"
+                />
+                <img
+                  src="assests/mark_2.svg"
+                  alt="Authenticity Guaranteed"
+                  class="footer_badge"
+                />
+                <img
+                  src="assests/mark_3.svg"
+                  alt="100% Secure Payments"
+                  class="footer_badge"
+                />
+              </div>
+            </div>
+
+            <div class="footer_card">
+              <h5 class="footer_card_title">Follow Us On</h5>
+              <div class="footer_socials">
+                <a href="#" class="footer_social_link" aria-label="Facebook">
+                  <img
+                    src="assests/facebook.svg"
+                    alt="Facebook"
+                    class="footer_social_icon"
+                  />
+                </a>
+                <a href="#" class="footer_social_link" aria-label="Instagram">
+                  <img
+                    src="assests/instagram.svg"
+                    alt="Instagram"
+                    class="footer_social_icon"
+                  />
+                </a>
+                <a href="#" class="footer_social_link" aria-label="LinkedIn">
+                  <img
+                    src="assests/linkedin.svg"
+                    alt="LinkedIn"
+                    class="footer_social_icon"
+                  />
+                </a>
+                <a href="#" class="footer_social_link" aria-label="YouTube">
+                  <img
+                    src="assests/youtube.svg"
+                    alt="YouTube"
+                    class="footer_social_icon"
+                  />
+                </a>
+                <a href="#" class="footer_social_link" aria-label="Twitter">
+                  <img
+                    src="assests/twitter.svg"
+                    alt="Twitter"
+                    class="footer_social_icon"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="footer_card">
+              <h5 class="footer_card_title">Download Our App</h5>
+              <div class="footer_apps">
+                <a
+                  href="#"
+                  class="footer_app_link"
+                  aria-label="Get it on Google Play"
+                >
+                  <img
+                    src="assests/playstore.png"
+                    alt="Google Play"
+                    class="footer_app_img"
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="footer_app_link"
+                  aria-label="Download on App Store"
+                >
+                  <img
+                    src="assests/appstore.png"
+                    alt="App Store"
+                    class="footer_app_img"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer_bottom">
+          <p class="footer_copy">
+            Copyright Protected 2017-2023 &copy; Bignlean.com.<br />
+            All Rights Reserved. Powered by Digigoat
+          </p>
+          <div class="footer_pay_wrap">
+            <img
+              src="assests/payment_option.png"
+              alt="Payment Gateways"
+              class="footer_pay_img"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+>>>>>>> 8ac361e0b471fcb11ad8c49af7fe52487ad8d450
+  </body>
+</html>
